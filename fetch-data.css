@@ -1,0 +1,42 @@
+/* Simple styling so results look neat */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 24px;
+  background: #f7f7fb;
+  color: #111827;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(20,20,40,0.06);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+#api-data {
+  margin-top: 12px;
+  font-size: 1rem;
+}
+
+/* Styling for list */
+#api-data ul {
+  padding-left: 1.25rem;
+}
+
+#api-data li {
+  margin: 6px 0;
+  line-height: 1.4;
+}
+
+/* Error state */
+#api-data.error {
+  color: #991b1b;
+  font-weight: 600;
+}
